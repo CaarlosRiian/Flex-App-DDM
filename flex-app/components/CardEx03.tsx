@@ -4,7 +4,6 @@ export default function CardEx03() {
   return (
     <View style={styles.card}>
 
-      {/* Topo */}
       <View style={styles.top}>
         <View style={styles.avatar} />
 
@@ -14,7 +13,6 @@ export default function CardEx03() {
         </View>
       </View>
 
-      {/* Botão */}
       <TouchableOpacity style={styles.button}>
         <Text style={styles.buttonText}>Acessar</Text>
       </TouchableOpacity>

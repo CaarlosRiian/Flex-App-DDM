@@ -27,6 +27,27 @@ export default function Home() {
         <Text style={styles.buttonText}>Exercício 03</Text>
       </TouchableOpacity>
 
+      <TouchableOpacity
+        style={styles.button}
+        onPress={() => router.push('./Exercicio04')}
+      >
+        <Text style={styles.buttonText}>Exercício 04</Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity
+        style={styles.button}
+        onPress={() => router.push('./Exercicio05')}
+      >
+        <Text style={styles.buttonText}>Exercício 05</Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity
+        style={styles.button}
+        onPress={() => router.push('./Exercicio06')}
+      >
+        <Text style={styles.buttonText}>Exercício 06</Text>
+      </TouchableOpacity>
+  
     </View>
   );
 }
